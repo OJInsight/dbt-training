@@ -28,6 +28,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 vars:
   default_string: 'N/A'
 
+#Seeds
+seeds:
+  +schema: public  
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
