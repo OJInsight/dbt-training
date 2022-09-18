@@ -1,6 +1,6 @@
 with avengers_history as (
 
-    select * from {{ ref('stg_avengers__avengers_history') }}
+    select * from {{ ref('stg_avengers__avangers_history') }}
 
 ),
 

@@ -40,3 +40,9 @@ models:
     staging:
       +materialized: view
       +schema: staging
+    marts: 
+      +materialized: table #Anything in the marts is going to be a table
+      warehouse:
+        +schema: warehouse
+      reporting:
+        +schema: reporting

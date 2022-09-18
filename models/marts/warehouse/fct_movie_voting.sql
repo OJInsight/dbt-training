@@ -1,12 +1,12 @@
 with fandango_scrape as (
 
-    select * from {{ ref('stg_fandango__scrape') }}
+    select * from {{ ref('stg_fandango_scrape') }}
 
 ),
 
 fandango_scores as (
 
-    select * from {{ ref('stg_fandango__score_comparison') }}
+    select * from {{ ref('stg_fandango_score_comparison') }}
 
 ),
 
